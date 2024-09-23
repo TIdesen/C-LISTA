@@ -1,0 +1,2692 @@
+1)A;
+
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int numero;
+	
+	cout << "Digite um numero inteiro: ";
+	cin >> numero;
+	cout << "Numero digitado pelo usuario foi: " << numero;
+	return 0;
+}
+
+1) B;
+
+#include <iostream>
+using namespace std;
+#include <string>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	double real;
+	
+	cout << "Digite um numero real: ";
+	cin >> real;
+	cout << "Numero digitado foi:" << real;
+	return 0;
+}
+
+1) C;
+
+#include <iostream>
+using namespace std;
+#include <string>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	string trueorfalse;
+	
+	cout << "Digite verdadeiro ou falso: ";
+	cin >> trueorfalse;
+	cout << "Verdadeiro ou falso?: " << trueorfalse;
+	return 0;
+}
+
+1) D;
+
+#include <iostream>
+using namespace std;
+#include <string>
+
+
+int main(int argc, char** argv) {
+    string nome;
+	
+	cout << "Digite um nome: ";
+	cin >> nome;
+
+	
+	cout << "Seu nome e: " << nome;
+	return 0;
+}
+
+1) E;
+
+#include <iostream>
+using namespace std;
+#include <string>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	double decimal;
+	
+	cout << "Digite um valor decimal: ";
+	cin >> decimal;
+	cout << "O seu numero decimal digitado foi: " << decimal;
+	return 0;
+}
+
+1) F;
+
+#include <iostream>
+using namespace std;
+#include <string>
+
+int main(int argc, char** argv) {
+	int numero,numero2;
+    
+    cout << "Digite o primeiro valor: ";
+    cin >> numero;
+    cout << "\n";
+    
+    cout << "Digite o segundo valor: ";
+    cin >> numero2;
+    cout << "\n";
+    
+    cout << "O valor somado sera de: " << numero+numero2;
+	return 0;
+}
+
+2) A;
+#include <iostream>
+
+int main() {
+    double num1, num2;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+
+    double soma = num1 + num2;
+    std::cout << "A soma é: " << soma << std::endl;
+
+    return 0;
+}
+
+
+2)B;
+#include <iostream>
+
+int main() {
+    double num;
+
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+
+    double dobro = num * 2;
+    std::cout << "O dobro é: " << dobro << std::endl;
+
+    return 0;
+}
+
+2) C;
+#include <iostream>
+
+int main() {
+    double num;
+
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+
+    double metade = num / 2;
+    std::cout << "A metade é: " << metade << std::endl;
+
+    return 0;
+}
+
+
+2) D;
+#include <iostream>
+
+int main() {
+    double num1, num2;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+
+    if (num2 != 0) {
+        double divisao = num1 / num2;
+        std::cout << "A divisão é: " << divisao << std::endl;
+    } else {
+        std::cout << "Erro: divisão por zero." << std::endl;
+    }
+
+    return 0;
+}
+
+
+2) E;
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double num;
+
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+
+    if (num >= 0) {
+        double raizQuadrada = std::sqrt(num);
+        std::cout << "A raiz quadrada é: " << raizQuadrada << std::endl;
+    } else {
+        std::cout << "Erro: número negativo." << std::endl;
+    }
+
+    return 0;
+}
+
+2) F;
+#include <iostream>
+
+int main() {
+    double num1, num2;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+
+    double subtracao = num2 - num1;
+    std::cout << "A subtração é: " << subtracao << std::endl;
+
+    return 0;
+}
+
+
+2) G;
+#include <iostream>
+#include <cstdlib>  // Para usar a função abs()
+
+int main() {
+    int num;
+
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+
+    int absoluto = std::abs(num);
+    std::cout << "O valor absoluto é: " << absoluto << std::endl;
+
+    return 0;
+}
+
+
+2) H;
+#include <iostream>
+
+int main() {
+    double num1, num2;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+
+    double multiplicacao = num1 * num2;
+    std::cout << "A multiplicação é: " << multiplicacao << std::endl;
+
+    return 0;
+}
+
+2) i;
+#include <iostream>
+
+int main() {
+    int num;
+
+    std::cout << "Digite um número: ";
+    std::cin >> num;
+
+    int resto = num % 2;
+    std::cout << "O resto da divisão por 2 é: " << resto << std::endl;
+
+    return 0;
+}
+
+
+2) J;
+#include <iostream>
+
+int main() {
+    int num1, num2;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+
+    if (num2 != 0) {
+        int divisaoInteira = num1 / num2;
+        std::cout << "A divisão inteira é: " << divisaoInteira << std::endl;
+    } else {
+        std::cout << "Erro: divisão por zero." << std::endl;
+    }
+
+    return 0;
+}
+
+
+
+2) K;
+#include <iostream>
+
+int main() {
+    double num1, num2, num3;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> num1;
+    
+    std::cout << "Digite o segundo número: ";
+    std::cin >> num2;
+    
+    std::cout << "Digite o terceiro número: ";
+    std::cin >> num3;
+
+    double media = (num1 + num2 + num3) / 3;
+    std::cout << "A média aritmética é: " << media << std::endl;
+
+    return 0;
+}
+
+
+2) L;
+#include <iostream>
+
+int main() {
+    double peso, altura;
+
+    std::cout << "Digite seu peso (em kg): ";
+    std::cin >> peso;
+    
+    std::cout << "Digite sua altura (em metros): ";
+    std::cin >> altura;
+
+    if (altura > 0) {
+        double imc = peso / (altura * altura);
+        std::cout << "O Índice de Massa Corporal (IMC) é: " << imc << std::endl;
+    } else {
+        std::cout << "Erro: altura inválida." << std::endl;
+    }
+
+    return 0;
+}
+
+
+2) M;
+#include <iostream>
+
+int main() {
+    double celsius;
+
+    std::cout << "Digite a temperatura em Celsius: ";
+    std::cin >> celsius;
+
+    double fahrenheit = (celsius * 9 / 5) + 32;
+    std::cout << "A temperatura em Fahrenheit é: " << fahrenheit << std::endl;
+
+    return 0;
+}
+
+
+2) N;
+#include <iostream>
+
+int main() {
+    double preco, desconto;
+
+    std::cout << "Digite o preço do produto: ";
+    std::cin >> preco;
+    
+    std::cout << "Digite o desconto em porcentagem: ";
+    std::cin >> desconto;
+
+    double precoFinal = preco - (preco * desconto / 100);
+    std::cout << "O preço final com desconto é: " << precoFinal << std::endl;
+
+    return 0;
+}
+
+
+2) O;
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double raio;
+
+    std::cout << "Digite o raio do círculo: ";
+    std::cin >> raio;
+
+    double area = M_PI * std::pow(raio, 2);
+    std::cout << "A área do círculo é: " << area << std::endl;
+
+    return 0;
+}
+
+
+
+2) P;
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double raio, altura;
+
+    std::cout << "Digite o raio do cilindro: ";
+    std::cin >> raio;
+    
+    std::cout << "Digite a altura do cilindro: ";
+    std::cin >> altura;
+
+    double volume = M_PI * std::pow(raio, 2) * altura;
+    std::cout << "O volume do cilindro é: " << volume << std::endl;
+
+    return 0;
+}
+
+2) Q;
+#include <iostream>
+
+int main() {
+    double nota1, nota2, nota3;
+    double peso1, peso2, peso3;
+
+    std::cout << "Digite a primeira nota: ";
+    std::cin >> nota1;
+    
+    std::cout << "Digite o peso da primeira nota: ";
+    std::cin >> peso1;
+    
+    std::cout << "Digite a segunda nota: ";
+    std::cin >> nota2;
+    
+    std::cout << "Digite o peso da segunda nota: ";
+    std::cin >> peso2;
+    
+    std::cout << "Digite a terceira nota: ";
+    std::cin >> nota3;
+    
+    std::cout << "Digite o peso da terceira nota: ";
+    std::cin >> peso3;
+
+    double mediaPonderada = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+    std::cout << "A média ponderada é: " << mediaPonderada << std::endl;
+
+    return 0;
+}
+
+
+3) A;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 < numero2){
+		cout << "O primeiro numero é maior que o segundo " << numero1;
+	}else{
+        cout << "O maior numero foi o " << numero2;
+}
+	return 0;
+}
+
+3) B;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 < numero2){
+		cout << "O segundo número é maior que o primeiro:  " << numero2;
+	}else{
+        cout << "O maior numero foi o " << numero1;
+}
+	return 0;
+}
+
+3) C;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 == numero2){
+		cout << "O primeiro e o segundo numero sao iguais";
+	}else{
+        cout << "Os valores não são iguais";
+}
+	return 0;
+}
+
+3) D;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1,numero2,numero3;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	cout << "Digite um terceiro valor: ";
+	cin >> numero3;
+	
+	
+	if (numero1 < numero2){
+		cout << "O primeiro é menor que o segundo número: " << numero2 << "\n";
+}else{
+	    cout << "Valores iguais ou fora do sentido";
+}
+    if (numero2 > numero3){
+    	 cout << "O número 2 é maior que o terceiro número: " << numero2;
+	}else{
+	    cout << "Valores iguais ou fora do sentido";
+}
+	return 0;
+}
+
+3) E;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 >= numero2){
+		cout << "O primeiro é maior ou igual ao segundo número: " << numero1 << "\n";
+}else{
+	    cout << "Número 2 é maior que o segundo número! (FORA DO PEDIDO)";
+}	
+ 
+	return 0;
+}
+
+3) F;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	
+	
+	if (numero1%2 == 0){
+	
+	cout << "Este número é PAR!";
+	
+}else{
+	    cout << "Este número é Impar!";
+}
+ 
+	return 0;
+}
+		
+3) G;
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	
+	
+	if (numero1%2 == 1){
+	
+	cout << "Este número é IMPAR!";
+	
+}else{
+	    cout << "Este número é PAR!";
+}
+ 
+	return 0;
+}
+
+3) H;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int ano;
+	
+	cout << "Digite um ano: ";
+	cin >> ano;
+	
+	
+	if ((ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)){
+		cout << "Este número é Bissexto ";
+	
+}else{
+	    cout << "Este ano não é Bissexto!";
+}
+ 
+	return 0;
+}
+		
+		
+3) i;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 <= numero2){
+		cout << "O primeiro é MENOR ou igual ao segundo número \n";
+}else{
+	    cout << "O primeiro número é MAIOR que o segundo número (FORA DO PEDIDO)";
+}
+ 
+	return 0;
+}
+
+3) J;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Digite um valor: ";
+	cin >> numero;
+	
+	
+	if (numero > 0){
+		cout << "Este é positivo! ";
+	
+}else{
+	    cout << "Este é negativo! ";
+}
+ 
+	return 0;
+}
+		
+3) K;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Digite um valor INTEIRO: ";
+	cin >> numero;
+	
+	
+	if (numero < 0){
+		cout << "Este é negativo! ";
+	
+}else{
+	cout << "Este é positivo! (FORA DO PEDIDO)";
+}
+ 
+	return 0;
+}
+		
+3)L;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero1,numero2;
+	
+	cout << "Digite um valor: ";
+	cin >> numero1;
+	cout << "Digite um segundo valor: ";
+	cin >> numero2;
+	
+	
+	if (numero1 && numero2 <= 10){
+		cout << "a diferença entre eles é menor ou igual a 10. \n";
+}else{
+	    cout << "Os valores são maiores que 100";
+}
+ 
+	return 0;
+}
+
+3)M;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int mes = 0;
+	
+	
+	cout << "** Digite o número referente ao mes para ver os dias que ele possuí ** : \n";
+	cin >> mes;
+	
+	cout << "1 - janeiro \n" << "2 - Fevereiro \n" << "3 - Março \n" << "4 - Abril \n" << "5 - Maio \n"
+    << "6 - Junho \n" << "7 - Julho \n" << "8 - Agosto \n" << "9 - Setembro \n" << "10 - Outubro \n"
+	<< "11 - Novembro \n"  << "12 - Dezembro \n \n";
+	
+	if(mes == 1){
+		cout << "Janeiro 31 Dias";
+	} 
+		if(mes == 2){
+		cout << "Fevereiro 29 Dias";
+	} 
+		if(mes == 3){
+		cout << "Março 31 Dias";
+	} 
+		if(mes == 4){
+		cout << "Abril 30 Dias";
+	} 
+		if(mes == 5){
+		cout << "Maio 31 Dias";
+	} 
+		if(mes == 6){
+		cout << "Junho 30 Dias";
+	} 
+		if(mes == 7){
+		cout << "Julho 31 Dias";
+	} 
+		if(mes == 8){
+		cout << "Agosto 31 Dias";
+	} 
+		if(mes == 9){
+		cout << "Setembro 30 Dias";
+	} 
+		if(mes == 10){
+		cout << "Outubro 31 Dias";
+	} 
+		if(mes == 11){
+		cout << "Novembro 30 Dias";
+	} 
+		if(mes == 12){
+		cout << "Dezembro 31 Dias";
+	} 
+ 
+	return 0;
+}
+
+3) N;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int idade;
+	string carteira;
+	
+	
+	cout << "Qual a sua idade?";
+	cin >> idade;
+	
+	cout << "Voce tem carteira de motorista?";
+	cin >> carteira;
+	
+	if(idade >= 18 && carteira == "sim"{
+		cout << "Voce pode digir.";
+	}else{
+	    cout << "Voce não pode dirigir";
+
+	return 0;
+}
+
+
+
+3) O;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta,dinheiro;
+	
+	
+	cout << "Voce deseja comprar um carro novo!? \n";
+	cin >> pergunta;
+	
+	cout << "Voce tem dinheiro suficiente? \n";
+	cin >> dinheiro;
+	
+	
+	if(pergunta == "sim" && dinheiro == "sim"){
+		cout << "Parabéns, você pode comprar um carro novo!";
+	}else{
+	    cout << "Ok! Então, quando puder, contate-nos.";
+    }
+	return 0;
+    }
+
+3) P;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string diploma,idade;
+	
+	
+	cout << "Voce possuí um diploma de ensino superior!? \n";
+	cin >> diploma;
+	
+	cout << "Voce tem mais de 21 anos? \n";
+	cin >> idade;
+
+	
+	if(diploma == "sim" && idade == "sim"){
+		cout << "Parabéns, você está qualificado para a vaga!";
+	}else{
+		cout << "Você não está qualificado para a vaga!";
+	}
+
+	return 0;
+}
+
+3) Q;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string assinante,pergunta;
+	
+	
+	cout << "Voce é assinante de um serviço de streaming? \n";
+	cin >> assinante;
+	
+	cout << "Já assistiu uma série especifica? \n";
+	cin >> pergunta;
+
+ 
+	if(assinante == "sim" && pergunta == "sim"){
+		cout << "Ótimo! agora você pode assistir à nova temporada!";
+
+	}else{
+		cout << "Pena! Espero que encontre algum Streaming ou série do seu interesse;";
+	}
+
+	return 0;
+}
+
+3) R;
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	int idade;
+	string nome;
+	
+	cout << "Por favor, informe seu nome: ";
+	cin >> nome;
+	cout << "\n";
+	
+	cout << "Por favor, informe sua idade: ";
+	cin >> idade;
+	cout << "\n";
+	
+	if((nome.length() > 3) && (idade >= 18))
+	{
+		cout << "Acesso permitido";
+	}
+	else
+	{
+		cout << "Acesso negado";
+	}
+	
+	
+  return 0;
+  
+}
+
+3) S;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	
+	cout << "Voce deseja adicionar açucar ou leite ao seu café? \n";
+	cin >> pergunta;
+	
+	if(pergunta == "Acucar"){
+		cout << "Café com o adicional preparado! com Açucar!";	
+	}
+	if(pergunta == "leite"){
+	    	cout << "Café com o adicional preparado! com Leite!";	
+	}else{
+	   cout << "Pedido não reconhecido.";
+	}
+
+	return 0;
+}
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string nome;
+	int idade;
+	
+	
+	cout << "Qual é o seu nome? \n";
+	cin >> nome;
+	
+	cout << "Qual é a sua idade? \n";
+	cin >> idade;
+
+ 
+	if(nome.size() > 3 && idade >= 18){
+		cout << "Acesso permitido!";
+
+	}else{
+		cout << "Acesso NEGADO!";
+	}
+
+	return 0;
+}
+
+3) T;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Insira um número inteiro: ";
+	cin >> numero;
+ 
+	if(numero%3 == 0 || numero%5 == 0){
+		cout << "O número é divisível por 3 ou por 5!";
+}
+	return 0;
+}
+
+3) U;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	cout << "Voce deseja comprar um produto? ";
+	cin >> pergunta;
+ 
+	if(pergunta == "sim" || pergunta == "s"){
+		cout << "Obrigado pela compra!";
+	}
+	
+
+	return 0;
+}
+
+3) V;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	cout << "Digite seu nome: ";
+	cin >> pergunta;
+ 
+	if(pergunta == "Wilson" || pergunta == "Gloria"){
+		cout << "Olá, bem-vindo(a) de volta!";
+	}else{
+		cout << "Nome de úsuario desconhecido.";
+		
+	}
+	
+	return 0;
+}
+
+3) W;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Digite um número inteiro: ";
+	cin >> numero;
+ 
+	if(numero > 10 || numero < 0){
+		cout << "Número invalido";
+		
+	}
+	
+	return 0;
+}
+
+3) X;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string robo;
+	
+	cout << "Voce é um robo? ";
+	cin >> robo;
+ 
+	if(robo == "nao"){
+		cout << "Por favor, prover que voce não é um robo.";
+	}else{
+		cout << "Acesso negado.";
+	}
+	
+	return 0;
+}
+
+3) Y;
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Digite um valor: ";
+	cin >> numero;
+ 
+	if(numero != 0){
+		cout << "O número é diferente de zero.";
+	}else{
+		cout << "O número é zero.";
+	}
+	
+	return 0;
+}
+
+3) Z;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	cout << "Voce é um membro inativo de um clube? ";
+	cin >> pergunta;
+ 
+	if(pergunta == "nao"){
+		cout << "Por favor, atualize sua inscrição para continuar usufruindo dos beneficios do clube.";
+	}else{
+		cout << "Resposta inválida.";
+	}
+	
+	return 0;
+}
+
+3) AA;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	cout << "Digite uma palavra: ";
+	cin >> pergunta;
+ 
+	if(pergunta.size() == 0){
+		cout << "Ela é vazia";
+	}else{
+		cout << "Ela não é vazia";
+	}
+	
+	return 0;
+}
+
+3) BB;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	string pergunta;
+	
+	cout << "Voce deseja cancelar esta operação? ";
+	cin >> pergunta;
+ 
+	if(pergunta == "nao"){
+		cout << "Por favor, confirme o cancelamento dessa operação.";
+	}else{
+		cout << "Ok! Operanção não cancelada.";
+	}
+	
+	return 0;
+}
+
+3) CC;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	double lado1,lado2,lado3;
+	
+	cout << "Informe o primeiro lado do seu triangulo: ";
+	cin >> lado1;
+	
+	cout << "Informe o segundo lado do seu triangulo: ";
+	cin >> lado2;
+	
+	cout << "Informe o segundo lado do seu triangulo: ";
+	cin >> lado3;
+ 
+	if(lado1 == lado2 && lado2 == lado3){
+		cout << "O triangulo é equilátero.";
+    }else if(lado1 == lado2 || lado2 == lado3 || lado1 == lado3){
+    	cout << "O triangulo é Isósceles.";
+	}else if(lado1 != lado2 && lado1 != lado3 && lado2 != lado3){
+		cout << "O triangulo é escaleno.";
+	} 
+
+	
+	return 0;
+}
+
+4) A;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int escolha;
+	
+	cout << "Digite de (1 a 3) para uma Mensagem Especial!!: ";
+	cin >> escolha;
+	
+	switch(escolha){
+		
+		case 1:
+		cout << "Bom dia!";
+		break;
+		
+		case 2:
+		cout << "Boa tarde!";
+		break;
+		
+		case 3:
+		cout << "Boa noite!";
+		break;
+		
+	}
+
+	return 0;
+}
+
+4) B;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int escolha,resultado,n1,n2;
+	
+	cout << "Digite de (1 a 4) para escolher quatro operações básicas (Adição,subtração,multiplicação e divisão): \n";
+	cin >> escolha;
+
+	cout << "Agora digite um primeiro valor: ";
+	cin >> n1;
+	
+	cout << "Agora digite um segundo valor: ";
+	cin >> n2;
+	
+	switch(escolha){
+		
+		case 1:
+		resultado = n1 + n2;
+		cout << "Adição!" << resultado;
+		break;
+		
+		case 2:
+		resultado = n1 - n2;
+		cout << "Subtração!" << resultado;
+		break;
+		
+		case 3:
+		resultado = n1 * n2;
+		cout << "Multiplicação!" << resultado;
+		break;
+		
+		case 4:
+		resultado = n1 / n2;
+		cout << "Divisão" << resultado;	
+	}
+
+	return 0;
+}
+
+4) C;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int escolha,n1,n2;
+	
+	cout << "Segunda \n" << "Terça \n" << "Quarta \n" << "Quinta \n" << "Sexta \n" << "Sábado \n" << "Domingo \n\n";
+	
+	cout << "Digite de (1 a 7) para verificar os dias da semana. \n";
+	cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 1:
+		cout << "Segunda - Dia útil";
+		break;
+		
+		case 2:
+		cout << "Terça - Dia útil";
+		break;
+		
+		case 3:
+		cout << "Quarta - Dia útil";
+		break;
+		
+		case 4:
+		cout << "Quinta - Dia útil";	
+	
+	    case 5:
+		cout << "Sexta - Dia útil";
+		
+		case 6:
+		cout << "Sábado - Final de semana";	
+		
+		case 7:
+		cout << "Domingo - Final de semana";		
+	}
+
+	return 0;
+}
+
+4) D;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int escolha,n1,n2;
+	
+	cout << "Cachorro \n" << "Gato \n" << "Pássaro \n";
+	
+	cout << "Digite de (1 a 3) e escolha um Animal. \n";
+	cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 1:
+		cout << "(Au au au)";
+		break;
+		
+		case 2:
+		cout << "(Miau)";
+		break;
+		
+		case 3:
+		cout << "(Piu piu)";
+		break;
+			
+	}
+
+	return 0;
+}
+
+4) E;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int escolha;
+	
+	
+	cout << "Digite de (1 a 3) para escolher 3 (Opções de velocidade.)\n";
+	cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 1:
+		cout << "(Limite de velocidade para a opção 'Baixa': 30 km/h)\n)";
+		break;
+		
+		case 2:
+		cout << "(Limite de velocidade para a opção 'Média': 60 km/h)\n";
+		break;
+		
+		case 3:
+		cout << "(Limite de velocidade para a opção 'Média': 100 km/h)\n)";
+		break;
+			
+	}
+
+	return 0;
+}
+
+4) F;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	char escolha;
+	
+	cout << "- CAMISETAS DIVERSAS (COM ESTOQUE DE 320 PEÇAS)\n \n";
+	
+	cout << "Escolha o tamanho da camiseta:" << endl;
+    cout << "P - Pequeno" << endl;
+    cout << "M - Médio" << endl;
+    cout << "G - Grande" << endl;
+    cout << "Digite o tamanho desejado (P/M/G): ";
+    cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 'P':
+		cout << "CAMISETA BRANCA - (Á VISTA R$ 80,00;)\n";
+		break;		
+		case 'M':
+		cout << "CAMISETA AMARELA - (Á VISTA R$ 76,00;)\n";
+		break;
+		
+		case 'G':
+		cout << "CAMISETA ROXA - (Á VISTA R$ 96,00;)\n";
+		break;
+			
+	}
+
+	return 0;
+}
+
+4) G;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+    char escolha;
+	
+	cout << "- CAIXA ELETRONICO - \n \n";
+	
+	cout << "Escolha o TIPO DE OPERAÇÃO que deseja realizar:" << endl;
+    cout << "Saque - S" << endl;
+    cout << "Depósito - D" << endl;
+    cout << "Consulta de saldo - C" << endl;
+    
+    cout << "DEFINA: ";
+    cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 'S':
+		cout << "Acessando a OPERAÇÃO DE SAQUE*** POR FAVOR, CONFIRME SUA SENHA;\n";
+		break;		
+		case 'D':
+		cout << "Acessando a OPERAÇÃO DE DEPÓSITO*** POR FAVOR, CONFIRME SUA SENHA;\n";
+		break;
+		
+		case 'C':
+		cout << "Acessando a OPERAÇÃO DE CONSULTA DE SALDO*** POR FAVOR, CONFIRME SUA SENHA;\n";
+		break;
+			
+	}
+
+	return 0;
+}
+
+4) H;
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+    char escolha;
+	
+	cout << "- OPTE POR UM IDIOMA** - \n \n";
+	
+	cout << "Escolha ENTRE 2 IDIOMAS (PORTUGUES = P OU INGLES = I): \n" << endl;
+    cin >> escolha;
+	
+
+	
+	switch(escolha){
+		
+		case 'P':
+		cout << "BOAS VINDAS!! \n";
+		break;		
+		case 'I':
+		cout << "WELCOME!!!\n";
+		break;
+	}
+
+	return 0;
+}
+
+4) i;
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int mes = 0;
+	
+		cout << "1 - janeiro \n" << "2 - Fevereiro \n" << "3 - Março \n" << "4 - Abril \n" << "5 - Maio \n"
+    << "6 - Junho \n" << "7 - Julho \n" << "8 - Agosto \n" << "9 - Setembro \n" << "10 - Outubro \n"
+	<< "11 - Novembro \n"  << "12 - Dezembro \n \n";
+	
+	cout << "** Digite um NÚMERO DE (1 A 12) para ver os DIAS referentes de um (MES ESPECIFICO)** : \n";
+	cin >> mes;
+	
+	
+	switch(mes){
+		
+		case 1:
+		cout << "Janeiro - 31 Dias";
+		break;
+	
+	    case 2:
+		cout << "Fevereiro - 29 Dias";
+	    break;
+	
+		case 3:
+		cout << "Março - 31 Dias";
+	    break;
+	
+		case 4:
+		cout << "Abril - 30 Dias";
+	 	break;
+	
+		case 5:
+		cout << "Maio - 31 Dias";
+	 	break;
+	
+		case 6:
+		cout << "Junho - 30 Dias";
+		break;
+	
+		case 7:
+		cout << "Julho - 31 Dias";
+	 	break;
+	
+		case 8:
+		cout << "Agosto - 31 Dias";
+	 	break;
+	
+		case 9:
+		cout << "Setembro - 30 Dias";
+	 	break;
+	
+		case 10:
+		cout << "Outubro - 31 Dias";
+		break;
+	
+		case 11:
+		cout << "Novembro - 30 Dias";
+	 	break;
+	
+		case 12:
+		cout << "Dezembro - 31 Dias";
+		break;
+	
+	} 
+ 
+	return 0;
+}
+
+5) A;
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int mes = 0;
+	
+	cout << "*EXIBA TODOS OS NÚMEROS PARES DE 0 A 100*\n \n";
+	
+   for(int i = 0; i <= 100; i+=2){
+      cout << i << "\n";
+      }
+
+	return 0;
+}
+
+5) B;
+
+
+#include <iostream>
+using namespace std;
+#include <cmath>
+#include <string>
+#include <locale.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	setlocale(LC_ALL, "portuguese");
+	int numero;
+	
+	cout << "Insira um número inteiro positivo: ";
+	cin >> numero;
+	
+   for(int i = 0; i <= numero; i+=2){
+      cout << i << "\n";
+      }
+
+	return 0;
+}
+
+5) C;
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std:: string palavra;
+    
+    std:: cout << "Por favor, informe uma palavra: ";
+    std:: cin >> palavra; 
+    
+    for (int i = 0; i < palavra.length(); i++)
+    {
+        std:: cout << palavra[i] << "\n";
+    }
+ 
+}
+
+
+5) D;
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int numero;
+    int soma = 0;
+    
+    std:: cout << "Por favor, informe um numero: ";
+    std:: cin >> numero; 
+    
+    for (int i = 0; i < numero; i++)
+    {
+        soma = soma + i;
+    }
+    
+    std:: cout << soma;
+ 
+}
+
+5) E;
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int numero, quant;
+    
+    std:: cout << "Por favor, insira um numero inteiro para saber se ele e primo: ";
+    std:: cin >> numero;
+    
+    for (int i = 1; i <= numero; i++)
+    {
+        if(numero %i == 0)
+        {
+            quant++;
+        }
+    }
+    
+    if(quant == 2)
+    {
+        std:: cout << "O numero informado e primo";
+    }
+    else
+    {
+        std:: cout << "O numero informado não e primo";
+    }
+ 
+}
+
+5) F;
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    double numeros[100];
+    int quantidade;
+    double maiorN;
+    
+    std:: cout << "Por favor insira a quantidade de numeros que voce deseja comparar para saber o maior: ";
+    std:: cin >> quantidade;
+    std:: cout << "\n";
+    
+    std:: cout << "Insira os numeros: \n";
+    for (int i = 0; i < quantidade; i++)
+    {
+        std:: cin >>  numeros[i];
+        
+    }
+    
+     for (int i = 0; i < quantidade; i++)
+    {
+        if(maiorN < numeros[i])
+        {
+            maiorN = numeros[i];
+        }
+    
+    }
+    
+    std:: cout << "O maior numero é: " << maiorN;
+    
+ 
+}
+
+
+5) G;
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int conta = 0;
+    std:: cout << "TABUADA 5 ao 10 \n";
+    for (int i = 5; i <= 10; i++)
+    {
+        std :: cout << "\n";
+        std:: cout << "TABUADA " << i << "\n";
+        for(int j = 0; j <= 10; j++)
+        {
+            int conta = i * j;
+            
+            std:: cout << i << " * " << j << " = " << conta << "\n";
+        }
+    }
+ 
+}
+
+5) H;
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int numero;
+    
+    std:: cout << "Por favor, insira um numero inteiro para saber seus divisores: ";
+    std:: cin >> numero;
+    
+    for (int i = 1; i <= numero; i++)
+    {
+        if(numero %i == 0)
+        {
+            std:: cout << i << "\n";
+        }
+    }
+ 
+}
+
+
+5) i;
+
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+    int quant;
+    
+    for (int i = 1; i <= 100; i++)
+    {
+        quant = 0;
+        for(int j = 1; j <= 100; j++)
+        {
+            if(i %j == 0)
+            {
+                quant++;
+            }
+    
+        }
+        
+        if(quant == 2)
+        {
+            std:: cout << i << "\n";
+        }
+    }
+}
+
+
+
+
+
+
+
+
+5) J; 
+#include <iostream>
+#include <cmath>
+#include <string>  
+#include <iomanip>
+#include <locale>
+using namespace std;
+
+
+int main() {
+    int soma = 0;
+    setlocale(LC_ALL, "portuguese");
+
+    // Loop pelos números de 1 a 100
+    for (int i = 1; i <= 100; ++i) {
+        // Verifica se o número é par
+        if (i % 2 == 0) {
+            soma += i; // Adiciona o número par à soma
+        }
+    }
+
+    // Exibe o resultado
+    std::cout << "A soma dos números pares entre 1 e 100 é: " << soma << std::endl;
+
+    return 0;
+}
+
+6) a;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int cont = 0;
+	int n1;
+	setlocale(LC_ALL, "portuguese");
+    
+    cout << "Insira um valor: ";
+    cin >> n1;
+    
+    while(cont <= n1){
+       if(cont%2==0){
+    	
+           cout << "Números pares entre 0 e o número inserido : " << cont <<"\n";
+	
+	  }
+	    cont++;
+	
+	  }
+6) b;
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero;
+    int i = 1; 
+
+
+    cout << "Digite um número inteiro: ";
+    cin >> numero;
+    
+    
+    cout << "Tabuada do " << numero << " até 10:" << endl;
+    while (i <= 10) {
+        cout << numero << " x " << i << " = " << numero * i << endl;
+        i++; 
+    }
+
+    return 0;
+}
+ 
+6) c;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int cont = 0;
+	int base;
+	int soma = 0;
+	setlocale(LC_ALL, "portuguese");
+    
+    
+    while(cont <= 4){
+           
+	      cout << "Digite uma sequencia de números : \n \n";
+	        cin >> base;
+	        
+	         soma+=base;
+	      
+	      cont++;
+	
+	  }
+           cout << "A soma total será : " << soma << "\n";  
+   
+	return 0;
+}
+
+
+6) D;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int senha = 0;
+	int senhacorreta = 123;
+	int tentativa = 0;
+	setlocale(LC_ALL, "portuguese");
+
+     cout << "Digite a senha (você tem até 3 tentativas):" << "\n";
+    
+    do{
+        cin >> senha;
+        
+         if (senha == senhacorreta) {
+            cout << "Senha correta! Acesso concedido." << "\n";
+            
+    
+    }else{
+    	cout << "Senha incorreta. Tente novamente." << "\n";
+    	tentativa+=1;
+	}
+      	
+	  	
+	}while(tentativa<3);
+  
+	return 0;
+}
+
+6)E;
+
+#include <iostream>
+#include <cmath>
+#include <string>  
+
+using namespace std;
+
+int main() {
+	int n1;
+    int soma = 0;
+    
+    while(n1>0){
+    	
+    cout << "Digite um valor: ";	
+    cin >> n1;	
+    
+    soma+=n1;
+	}
+	
+    cout << "Os valores somados serão: " soma;
+    return 0;
+}
+
+6)F;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+	int n1;
+	int cont = 0;
+    
+    cout << "Insira um número inteiro positivo: ";	
+    
+       cin >> n1;
+    
+    while(cont<n1){	
+        	
+       if(cont%2 == 0){
+    cout << "Os números pares serão: " << cont << "\n";  
+    		
+	}
+	cont++;  
+}
+    return 0;
+}
+
+7) A;
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int cont = 0;
+	int n1;
+	setlocale(LC_ALL, "portuguese");
+    
+    cout << "Insira um valor: ";
+    cin >> n1;
+    
+    do{
+       if(cont%2==0){
+    	
+           cout << "Números pares entre 0 e o número inserido : " << cont <<"\n";
+	
+	  }
+	    cont++;
+	  }while(cont <= n1);
+    return 0;
+}
+
+ 7) b;
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero;
+    int i = 1; 
+
+
+    cout << "Digite um número inteiro: ";
+    cin >> numero;
+    
+    
+    cout << "Tabuada do " << numero << " até 10:" << endl;
+    do {
+        cout << numero << " x " << i << " = " << numero * i << endl;
+        i++; 
+    }while (i <= 10);
+
+    return 0;
+}
+ 
+7) c;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int cont = 0;
+	int base;
+	int soma = 0;
+	setlocale(LC_ALL, "portuguese");
+    
+    
+    do {
+           
+	      cout << "Digite uma sequencia de números : \n \n";
+	        cin >> base;
+	        
+	         soma+=base;
+	      
+	      cont++;
+	
+	  }while(cont <= 4);
+           cout << "A soma total será : " << soma << "\n";  
+   
+	return 0;
+}
+
+7) D;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main(int argc, char** argv) {
+	int senha = 0;
+	int senhacorreta = 123;
+	int tentativa = 0;
+	setlocale(LC_ALL, "portuguese");
+
+     cout << "Digite a senha (você tem até 3 tentativas):" << "\n";
+    
+    do{
+        cin >> senha;
+        
+         if (senha == senhacorreta) {
+            cout << "Senha correta! Acesso concedido." << "\n";
+            
+    
+    }else{
+    	cout << "Senha incorreta. Tente novamente." << "\n";
+    	tentativa+=1;
+	}
+      	
+	  	
+	}while(tentativa<3);
+  
+	return 0;
+}
+
+7)E;
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero;
+    int soma = 0;
+
+    cout << "Digite números inteiros (um número negativo para parar):" << endl;
+
+    
+    do {
+        cin >> numero; 
+
+        if (numero >= 0) {
+            soma += numero; 
+        }
+    } while (numero >= 0); 
+
+  
+    cout << "A soma dos números inseridos é: " << soma << endl;
+
+    return 0;
+}
+7)F;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+	int n1;
+	int cont = 0;
+    
+    cout << "Insira um número inteiro positivo: ";	
+    
+       cin >> n1;
+    
+    do{	
+        	
+       if(cont%2 == 0){
+    cout << "Os números pares serão: " << cont << "\n";  
+    		
+	}
+	cont++;  
+}while(cont<n1);
+    return 0;
+}
+
+
+8) A;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+	int tamanho = 5;
+	
+	int vetor[tamanho] = {10,20,30,40,50};
+	cout << "Valores do Vetor: " << "\n";
+	
+	for (int i = 0; i < tamanho; i++){
+		cout << "Os elementos serão: " << i << ": " << vetor[i] << "\n";
+		
+	}
+	
+    
+   
+    return 0;
+}
+
+8) B;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+	int tamanho = 5;
+	float soma = 0.0;
+	float media;
+	
+	int vetor[tamanho] = {10,20,30,40,50};
+	cout << "Valores do Vetor: " << "\n";
+	
+	for (int i = 0; i < tamanho; i++){
+		cout << "Os elementos serão :" << i << ": " << vetor[i] << "\n";
+		soma += vetor[i];
+	}
+	   media = soma / tamanho;
+	   cout << "Média dos valores do vetor. " << media << "\n";
+	
+    
+   
+    return 0;
+}
+
+8) C;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+    int n;
+    int maior = 0;
+	
+	int vetor[6] = {10,20,30,60,40,50};
+	cout << "Valores do Vetor: " << "\n";
+	
+	for (int i = 0; i <= 6; i++){
+		cout << "Os elementos serão " << i << ": " << vetor[i] << "\n";
+		if (vetor[i] > maior){
+			maior = vetor[i];
+			
+		}
+	}
+	   cout << "O maior será : " << maior << "\n";
+	
+    
+   
+    return 0;
+}
+
+8) D;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+
+    int n;
+    int menor = 1000;
+	
+	int vetor[6] = {10,20,30,60,40,50};
+	cout << "Valores do Vetor: " << "\n";
+	
+	for (int i = 0; i <= 6; i++){
+		cout << "Os elementos serão " << i << ": " << vetor[i] << "\n";
+		if (vetor[i] < menor){
+			menor = vetor[i];
+			
+		}
+	}
+	   cout << "O menor será : " << menor << "\n";
+	
+    
+   
+    return 0;
+}
+
+8) E;
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+	
+	int numeros[5] = {10,20,30,60,40};
+	
+	sort(begin(numeros), end(numeros), greater<int>());
+	
+	for(int cont = 0; cont < 5; cont++){
+		cout << numeros[cont] << "\n";
+		
+	}
+	
+}
+
+8) F;
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "portuguese");
+	
+	int numeros[5] = {10,20,30,60,40};
+	
+	sort(begin(numeros), end(numeros));
+	
+	for(int cont = 0; cont < 5; cont++){
+		cout << numeros[cont] << "\n";
+		
+	}
+	
+}
+
+8) G;
+
+#include <iostream>
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    const int tamanho = 100;
+    vector<double> precosCompra(tamanho);
+    vector<double> precosVenda(tamanho);
+
+    for (int i = 0; i < tamanho; i++) {
+        cout << "Mercadoria " << (i + 1) << endl;
+        cout << "Preço de compra: ";
+        cin >> precosCompra[i];
+        cout << "Preço de venda: ";
+        cin >> precosVenda[i];
+    }
+
+    int lucroMenor10 = 0;
+    int lucroEntre10e20 = 0;
+    int lucroMaior20 = 0;
+
+    for (int i = 0; i < tamanho; i++) {
+        double lucro = ((precosVenda[i] - precosCompra[i]) / precosCompra[i]) * 100;
+
+        if (lucro < 10) {
+            lucroMenor10++;
+        } else if (lucro >= 10 && lucro <= 20) {
+            lucroEntre10e20++;
+        } else {
+            lucroMaior20++;
+        }
+    }
+
+    cout << "Mercadorias com lucro menor que 10%: " << lucroMenor10 << endl;
+    cout << "Mercadorias com lucro entre 10% e 20%: " << lucroEntre10e20 << endl;
+    cout << "Mercadorias com lucro maior que 20%: " << lucroMaior20 << endl;
+
+    return 0;
+
+8)i;
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    const int NUM_MESAS = 30, LUGARES_POR_MESA = 5;
+    vector<int> reservas(NUM_MESAS, 0);
+    int total_lugares_ocupados = 0, codigo_mesa;
+
+    while (total_lugares_ocupados < NUM_MESAS * LUGARES_POR_MESA) {
+        cout << "Código da mesa (100 a 129) ou 0 para sair: ";
+        cin >> codigo_mesa;
+
+        if (codigo_mesa == 0) break;
+
+        if (codigo_mesa < 100 || codigo_mesa > 129) {
+            cout << "Código inválido!" << endl;
+            continue;
+        }
+
+        int indice_mesa = codigo_mesa - 100;
+        int lugares_desejados;
+
+        cout << "Lugares desejados (1 a 5): ";
+        cin >> lugares_desejados;
+
+        if (lugares_desejados < 1 || lugares_desejados > LUGARES_POR_MESA ||
+            reservas[indice_mesa] + lugares_desejados > LUGARES_POR_MESA) {
+            cout << "Reserva inválida!" << endl;
+            continue;
+        }
+
+        reservas[indice_mesa] += lugares_desejados;
+        total_lugares_ocupados += lugares_desejados;
+
+        cout << "Reserva na mesa " << codigo_mesa << " realizada!" << endl;
+    }
+
+    cout << "Total de lugares ocupados: " << total_lugares_ocupados << "/" << (NUM_MESAS * LUGARES_POR_MESA) << endl;
+
+    return 0;
+}
+
+
+8) J;
+
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <iomanip>
+#include <locale>
+#include <algorithm>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main() {
+    const int tamanho = 100;
+    vector<double> numeros(tamanho);
+    double soma = 0;
+    int quantidadeNumeros30 = 0;
+    int quantidadeMaioresQueMedia = 0;
+    int quantidadeIguaisMedia = 0;
+    
+     srand(static_cast<unsigned>(time(0)));
+
+    for (int i = 0; i < tamanho; i++){
+        
+        numeros[i] = rand() % 100;
+        cout << numeros[i] << "\n";
+        
+        soma += numeros[i];
+        
+         if (numeros[i] == 30){
+             quantidadeNumeros30++;
+        }
+    }
+
+    double media = soma / tamanho;
+
+    // Contagem das condições
+    for (int i = 0; i < tamanho; i++) {
+       
+        if (numeros[i] > media) {
+            quantidadeMaioresQueMedia++;
+        }
+        if (numeros[i] == media) {
+            quantidadeIguaisMedia++;
+        }
+    }
+
+    // Saída dos resultados
+    cout << "1. Quantidade de números iguais a 30: " << quantidadeNumeros30 << endl;
+    cout << "2. Quantidade de números maiores que a média: " << quantidadeMaioresQueMedia << endl;
+    cout << "3. Quantidade de números iguais à média: " << quantidadeIguaisMedia << endl;
+
+    return 0;
+}
